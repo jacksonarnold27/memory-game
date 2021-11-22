@@ -1,0 +1,57 @@
+* {
+	background-color: rgb(156, 156, 156);
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-style: italic;
+	font-size: 3rem;
+}
+#game {
+	visibility: hidden;
+}
+#game div {
+	border: 3px solid black;
+	border-radius: 20px;
+	width: 15%;
+	height: 200px;
+	margin: 1%;
+	display: inline-block;
+	background-color: gainsboro;
+	text-align: center;
+}
+
+#start-button {
+	border: solid green 1px;
+	background-color: rgb(72, 180, 72);
+}
+#start-button:hover {
+	background-color: green;
+}
+#reset-button {
+	visibility: hidden;
+	background-color: rgb(212, 21, 21);
+	font-style: oblique;
+}
+#reset-button:hover {
+	background-color: rgb(138, 21, 21);
+}
+
+div {
+	text-align: center;
+}
+
+div.buttons-holder {
+	text-align: center;
+}
+
+button {
+	color: white;
+	border-radius: 10px;
+	text-shadow: 1px 1px 1px #000;
+	font-size: 2rem;
+	line-height: 3;
+	padding: 0 20px;
+	width: 60%;
+}
